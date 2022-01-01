@@ -1,33 +1,14 @@
-# README
+# Rails Record Store
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## An Educational Project Working with Rails with Active Record
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## By Danielle Thompson
 
 ## (New) Project Set Up
 
 1. Run `bundle install` to generate Gemfile.lock and bundle all gems.
 2. New project environment: [Set up rspec with `bundle exec rails generate rspec:install`.]
-3. Start postgres server.
+3. Start postgres server in the terminal with command `postgres`.
 4. Create database with `rake db:create`. (`rake db:drop` will drop databases.)
 5. Type `rails server` or `rails s` in root directory of project to run a
 local development server.
@@ -46,6 +27,8 @@ Create a _new_ migration if database changes are needed in production.
 ** When naming migrations, start with a verb to describe the change the migration
 will make to the database.
 
+## Tests
+
 ## Terminals Available to Interact with Database
 
 * `psql`
@@ -55,3 +38,13 @@ will make to the database.
 * `rails c` or `rails console`
   * Interacts directly with the database.
   * Easy to use as a developer, and preferred when ActiveRecord is in play.
+
+## Extras
+
+* From the repository's terminal, `rake routes` will allow you to look at routes the
+application has implicitly.
+
+## Exercises To Do
+
+1. Test all associations between classes with shoulda-matchers.
+(Documentation [here](http://matchers.shoulda.io/docs/v4.1.0/).)
