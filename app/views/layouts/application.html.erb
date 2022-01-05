@@ -1,3 +1,5 @@
+<%=# @Comment - If you ever want to change something on all of your pages - such as adding a logo or nav bar - this layout file is the place to do it.%>
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -10,6 +12,13 @@
   </head>
 
   <body>
+    <%=# @Comment - Place a `content_for(:navbar) before yield%>
+
+    <%= flash[:alert] %>
+    <%= flash[:notice] %>
+
     <%= yield %>
+
+    <%=# @Comment - Place a `content_for(:footer) after yield%>
   </body>
 </html>
