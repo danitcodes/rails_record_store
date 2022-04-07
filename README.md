@@ -4,17 +4,20 @@
 
 ## By Danielle Thompson
 
-## (New) Project Set Up
+## New Project Set Up
 
 1. Run `bundle install` to generate Gemfile.lock and bundle all gems.
 2. New project environment: [Set up rspec with `bundle exec rails generate rspec:install`.]
 3. Start postgres server in the terminal with command `postgres`.
 4. Create database with `rake db:create`. (`rake db:drop` will drop databases.)
-5. Type `rails server` or `rails s` in root directory of project to run a
-local development server.
-6. Navigate to _localhost:3000_ to see the application.
 
-Start postgres server wih `pg_ctl -D '/usr/local/var/postgres@12' -l logfile start` ???
+## Starting the Development Environment
+1. Type `rails server` or `rails s` in root directory of project to run a
+local development server.
+2. Navigate to _localhost:3000_ to see the application.
+3. Use the Postgres app to run and interact with the local database. (Should be running automatically in the background.)
+
+~~Start postgres server wih `pg_ctl -D '/usr/local/var/postgres@12' -l logfile start` ???~~
 
 ## Migrations
 
