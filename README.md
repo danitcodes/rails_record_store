@@ -14,6 +14,8 @@
 local development server.
 6. Navigate to _localhost:3000_ to see the application.
 
+Start postgres server wih `pg_ctl -D '/usr/local/var/postgres@12' -l logfile start` ???
+
 ## Migrations
 
 1. Add tables, etc., with `rails generate migration create_table_name`.
@@ -48,3 +50,6 @@ application has implicitly.
 
 1. Test all associations between classes with shoulda-matchers.
 (Documentation [here](http://matchers.shoulda.io/docs/v4.1.0/).)
+2. Make a less rudimentary `title_case` method like the one created in week 1 of Ruby lessons for album model.
+3. Set up project with Docker.
+4. Add flash messages for all CRUD functionality.
