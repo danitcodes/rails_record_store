@@ -1,24 +1,7 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+1. Start the database `postgres`.
+2. Start the rails server `rails s`.
+3. `Bundle` the gems as needed.
+4. Run `rspec` to see test results.
+5. [`rails routes` allows you to see the current application's routes, or navigate to http://localhost:3000/rails/info/routes.]
